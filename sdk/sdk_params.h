@@ -16882,6 +16882,10 @@ namespace SDK
         float ReturnValue; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_ZeroConstructor | CPF_ReturnParm | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash | CPF_NativeAccessSpecifierPublic]
     };
 
+    struct UPDDisconnectPopupUI_OnClickCSCenterBtn_Params 
+    {
+    };
+
     struct UPDDisplayOptionUI_OnWhisperBlockChanged_Params 
     {
         struct FString sItem; //Param: Flags[CPF_Parm | CPF_ZeroConstructor | CPF_HasGetValueTypeHash | CPF_NativeAccessSpecifierPublic]
@@ -17759,7 +17763,11 @@ namespace SDK
         class UPDKillLogModule* TargetModule; //Param: Flags[CPF_Parm | CPF_ZeroConstructor | CPF_InstancedReference | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash | CPF_NativeAccessSpecifierPublic]
     };
 
-    struct UPDLinkPopupUI_OnClickLinkBtn_Params 
+    struct UPDLobbyBannerUI_OnUnHoveredBanner_Params 
+    {
+    };
+
+    struct UPDLobbyBannerUI_OnHoveredBanner_Params 
     {
     };
 
@@ -42987,6 +42995,33 @@ namespace SDK
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
+    struct AExportDefuseBombModeSpawnSystem_C_¡     _Params 
+    {
+    };
+
+    struct AExportDefuseBombModeSpawnSystem_C_ExecuteUbergraph_ExportDefuseBombModeSpawnSystem_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct AExportSafeZoneActor_C_ê0•     _Params 
+    {
+    };
+
+    struct AExportSafeZoneActor_C_ExecuteUbergraph_ExportSafeZoneActor_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct AExportSafeZoneInitialVertices_C_ê0• ò     _Params 
+    {
+    };
+
+    struct AExportSafeZoneInitialVertices_C_ExecuteUbergraph_ExportSafeZoneInitialVertices_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
     struct ALevelRegion_C_ReceiveBeginPlay_Params 
     {
     };
@@ -43221,33 +43256,6 @@ namespace SDK
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
-    struct AExportDefuseBombModeSpawnSystem_C_¡     _Params 
-    {
-    };
-
-    struct AExportDefuseBombModeSpawnSystem_C_ExecuteUbergraph_ExportDefuseBombModeSpawnSystem_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct AExportSafeZoneActor_C_ê0•     _Params 
-    {
-    };
-
-    struct AExportSafeZoneActor_C_ExecuteUbergraph_ExportSafeZoneActor_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct AExportSafeZoneInitialVertices_C_ê0• ò     _Params 
-    {
-    };
-
-    struct AExportSafeZoneInitialVertices_C_ExecuteUbergraph_ExportSafeZoneInitialVertices_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
     struct UABP_MainPlayerFP_C_AnimGraph_Params 
     {
         struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
@@ -43274,82 +43282,32 @@ namespace SDK
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
-    struct UABP_Rita_01_01_ACC_C_AnimGraph_Params 
+    struct UABP_Simon_01_01_Hipsack_C_AnimGraph_Params 
     {
         struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
     };
 
-    struct UABP_Rita_01_01_ACC_C_ExecuteUbergraph_ABP_Rita_01_01_ACC_Params 
+    struct UABP_Simon_01_01_Hipsack_C_ExecuteUbergraph_ABP_Simon_01_01_Hipsack_Params 
     {
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
-    struct UABP_Rita_Hair_C_AnimGraph_Params 
+    struct UABP_Jack_02_01_Tie_C_AnimGraph_Params 
     {
         struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
     };
 
-    struct UABP_Rita_Hair_C_ExecuteUbergraph_ABP_Rita_Hair_Params 
+    struct UABP_Jack_02_01_Tie_C_ExecuteUbergraph_ABP_Jack_02_01_Tie_Params 
     {
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
-    struct UABP_Tyrone_02_01_Hipsack_C_AnimGraph_Params 
+    struct UABP_Jack_Hair_C_AnimGraph_Params 
     {
         struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
     };
 
-    struct UABP_Tyrone_02_01_Hipsack_C_ExecuteUbergraph_ABP_Tyrone_02_01_Hipsack_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct UABP_Tyrone_01_01_Goggles_C_AnimGraph_Params 
-    {
-        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
-    };
-
-    struct UABP_Tyrone_01_01_Goggles_C_ExecuteUbergraph_ABP_Tyrone_01_01_Goggles_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct UABP_Dmitri_Hair_C_AnimGraph_Params 
-    {
-        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
-    };
-
-    struct UABP_Dmitri_Hair_C_ExecuteUbergraph_ABP_Dmitri_Hair_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct UABP_Luna_01_01_KeyChain_C_AnimGraph_Params 
-    {
-        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
-    };
-
-    struct UABP_Luna_01_01_KeyChain_C_ExecuteUbergraph_ABP_Luna_01_01_KeyChain_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct UABP_Luna_01_01_CrossBag_C_AnimGraph_Params 
-    {
-        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
-    };
-
-    struct UABP_Luna_01_01_CrossBag_C_ExecuteUbergraph_ABP_Luna_01_01_CrossBag_Params 
-    {
-        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
-    };
-
-    struct UABP_Luna_Hair_C_AnimGraph_Params 
-    {
-        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
-    };
-
-    struct UABP_Luna_Hair_C_ExecuteUbergraph_ABP_Luna_Hair_Params 
+    struct UABP_Jack_Hair_C_ExecuteUbergraph_ABP_Jack_Hair_Params 
     {
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
@@ -43384,12 +43342,32 @@ namespace SDK
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
 
-    struct UABP_Simon_01_01_Hipsack_C_AnimGraph_Params 
+    struct UABP_Luna_01_01_KeyChain_C_AnimGraph_Params 
     {
         struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
     };
 
-    struct UABP_Simon_01_01_Hipsack_C_ExecuteUbergraph_ABP_Simon_01_01_Hipsack_Params 
+    struct UABP_Luna_01_01_KeyChain_C_ExecuteUbergraph_ABP_Luna_01_01_KeyChain_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct UABP_Luna_01_01_CrossBag_C_AnimGraph_Params 
+    {
+        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
+    };
+
+    struct UABP_Luna_01_01_CrossBag_C_ExecuteUbergraph_ABP_Luna_01_01_CrossBag_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct UABP_Luna_Hair_C_AnimGraph_Params 
+    {
+        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
+    };
+
+    struct UABP_Luna_Hair_C_ExecuteUbergraph_ABP_Luna_Hair_Params 
     {
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };
@@ -43410,6 +43388,36 @@ namespace SDK
     };
 
     struct UABP_Youngsik_01_01_Backpack_C_ExecuteUbergraph_ABP_Youngsik_01_01_Backpack_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct UABP_Rita_01_01_ACC_C_AnimGraph_Params 
+    {
+        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
+    };
+
+    struct UABP_Rita_01_01_ACC_C_ExecuteUbergraph_ABP_Rita_01_01_ACC_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct UABP_Rita_Hair_C_AnimGraph_Params 
+    {
+        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
+    };
+
+    struct UABP_Rita_Hair_C_ExecuteUbergraph_ABP_Rita_Hair_Params 
+    {
+        int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
+    };
+
+    struct UABP_Dmitri_Hair_C_AnimGraph_Params 
+    {
+        struct FPoseLink AnimGraph; //Param: Flags[CPF_Parm | CPF_OutParm | CPF_NoDestructor]
+    };
+
+    struct UABP_Dmitri_Hair_C_ExecuteUbergraph_ABP_Dmitri_Hair_Params 
     {
         int32_t EntryPoint; //Param: Flags[CPF_BlueprintVisible | CPF_BlueprintReadOnly | CPF_Parm | CPF_ZeroConstructor | CPF_IsPlainOldData | CPF_NoDestructor | CPF_HasGetValueTypeHash]
     };

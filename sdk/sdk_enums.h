@@ -3714,7 +3714,7 @@ namespace SDK
         GameSetupInformationPopup = 33,
         NicknamePopup = 34,
         WaitPopup = 35,
-        LinkPopup = 36,
+        DisconnectPopup = 36,
         MatchCategoryListItem = 37,
         MatchListItem = 38,
         MatchModeListItem = 39,
