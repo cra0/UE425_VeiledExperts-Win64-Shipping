@@ -12336,15 +12336,5 @@ namespace SDK
         ENiagaraExpansionMode_MAX = 3
     };
 
-    enum class EN_DistributionMethod : uint8_t //UserDefinedEnum EN_DistributionMethod.EN_DistributionMethod
-    {
-        NewEnumerator3 = 0,
-        NewEnumerator4 = 1,
-        NewEnumerator0 = 2,
-        NewEnumerator1 = 3,
-        NewEnumerator2 = 4,
-        EN_MAX = 5
-    };
-
 
 }

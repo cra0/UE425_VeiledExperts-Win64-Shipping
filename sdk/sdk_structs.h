@@ -21109,45 +21109,5 @@ namespace SDK
 
     };
 
-    struct FST_MeshExtra //UserDefinedStruct ST_MeshExtra.ST_MeshExtra
-    {
-    //Children Prop Count (Fields): 7
-    public:
-
-        class UStaticMesh* StaticMesh_2_D7E328B04E88F9E1B48818A795AA9387; // 0x0
-        class AActor* ActorClass_23_B6D75CD54F9725057E428B8C10D045C5; // 0x8
-        float Spacing_11_C3539F4C4135A8135CC92F961991D704; // 0x10
-        struct FVector Offset_12_350903A44365E3653DC2CAB141694F6A; // 0x14
-        float AngularOffset_13_1AF43B79486D52949AB450ADF9BDC00D; // 0x20
-        bool ZVertical_14_7A6ED384435F4AC16062F78712A69404; // 0x24
-        float MaxDrawDistance_17_91BB4B7A44073E656FDFF7993B7F7478; // 0x28
-
-    };
-
-    struct FST_ReplaceRoadSection //UserDefinedStruct ST_ReplaceRoadSection.ST_ReplaceRoadSection
-    {
-    //Children Prop Count (Fields): 3
-    public:
-
-        int32_t Section_3_528B2A2744F349CCDB616BBFAEA635BC; // 0x0
-        int32_t Repeat_8_01C6783F49616BF53C314EA3371EDE19; // 0x4
-        class UStaticMesh* ReplaceWithMesh_5_1E8BC7B847F0150B28C817B2BDEEFD6C; // 0x8
-
-    };
-
-    struct FST_SplineExtra //UserDefinedStruct ST_SplineExtra.ST_SplineExtra
-    {
-    //Children Prop Count (Fields): 6
-    public:
-
-        class UStaticMesh* SplineStaticMesh_2_7CB0881D4493C0FDAB013884F49603E2; // 0x0
-        struct FVector Offset_6_E936A4DD48063D4E5F2AB082641172E2; // 0x8
-        bool FlipY_9_556CB6FD468D5682BDDE539F64FFBAF5; // 0x14
-        float StartOffset_22_45CCF7104DB2BB67BB86FD9DA1CC9289; // 0x18
-        float EndOffset_23_59D9C5C349AB221361F3AAB47E3428F9; // 0x1c
-        float XScale_24_F41EC13F4A5EC04DCE3944BCF3CE4514; // 0x20
-
-    };
-
 
 }
